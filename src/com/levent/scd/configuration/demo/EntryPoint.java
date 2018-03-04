@@ -16,7 +16,6 @@ public class EntryPoint {
 		System.out.println("\tDB Name        : " + ConfigManager.config().DB_DB_NAME);
 		System.out.println("\tDB User        : " + ConfigManager.config().DB_USER);
 		System.out.println("\tDB Pass        : " + ConfigManager.config().DB_PASSWORD);
-//		System.out.println("\tDB Target Table: " + ConfigManager.config().DB_TARGET_TABLE);
 	}
 
 }

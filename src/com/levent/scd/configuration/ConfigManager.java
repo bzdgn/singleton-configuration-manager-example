@@ -40,15 +40,14 @@ public class ConfigManager {
 	
 	/*
 	 * Reads the properties file in the base directory.
-	 * Because that we are using maven as build tool, the application
-	 * properties which considered to be a resource file is located in;
 	 * 
-	 * src/main/resources 
+	 * If an environmental variable is defined, then the properties file
+	 * will be expected in the value of the environmental variable. Otherwise,
+	 * properties file will be expected to be in the base directory.
 	 * 
-	 * So RESOURCE_DIR is set to maven resource directory.
-	 * 
-	 * If you are going to use a different build tool, you should change the
-	 * RESOURCE_DIR.
+	 * If you are going to use a tool like maven, it should also be the
+	 * src/main/resources
+	 * folder.
 	 * 
 	 * Levent Divilioglu - December,2017
 	 * 
