@@ -30,26 +30,26 @@ Setting Up The Environmental Variable
 -------------------------------------
 You can set up the environmental variable in windows as below;
 
-![alt picturehere](http://url/to/img.png)
+![Setting-Up-Environmental-Variable](https://raw.githubusercontent.com/bzdgn/singleton-configuration-manager-example/master/ScreenShots/00_HOW_TO_SET_ENV_VAR.PNG)
 
 If the env-variable is set, then inside the Config static class which is inside the ConfigManager,
 you can hardcode the name of the environmental variable.
 
 States Of The ConfigManager
 ---------------------------
-1- Environmental Variable Set But There Is No Properties File In The Target Location
+1- Environmental Variable Set But There Is No Properties File In The Target Directory
 
-![alt picturehere](http://url/to/img.png)
+![Env-Is-Set-But-No-Props-File-In-Target-Dir](https://raw.githubusercontent.com/bzdgn/singleton-configuration-manager-example/master/ScreenShots/01_ENV_IS_SET_BUT_NO_FILE.PNG)
 
-2- Environmental Variable Set And There Is Properties File In The Target Location
+2- Environmental Variable Set And There Is Properties File In The Target Directory
 
-![alt picturehere](http://url/to/img.png)
+![Env-Is-Set-But-Props-File-In-Target-Dir](https://raw.githubusercontent.com/bzdgn/singleton-configuration-manager-example/master/ScreenShots/02_ENV_IS_SET_AND_FILE_IS_FOUND.PNG)
 
 3- Environmental Variable Is Not Set And There Is Properties File In The Base Dir
 
-![alt picturehere](http://url/to/img.png)
+![Env-Is-Not-Set-But-Props-File-In-Base-Dir](https://raw.githubusercontent.com/bzdgn/singleton-configuration-manager-example/master/ScreenShots/03_NO_ENV_IS_SET_FILE_IS_ON_WORKING_DIR.PNG)
 
 4- Environmental Variable Is Not Set And No Properties File In The Base Dir
 
-![alt picturehere](http://url/to/img.png)
+![Env-Is-Not-Set-And-No-Props-File-In-Base-Dir](https://raw.githubusercontent.com/bzdgn/singleton-configuration-manager-example/master/ScreenShots/04_NO_ENV_IS_SET_FILE_IS_NOT_FOUND_ON_WORKING_DIR.PNG)
 
