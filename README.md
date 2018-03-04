@@ -5,6 +5,12 @@ config manager in my projects. It is a simple Gang-Of-Four Singleton design patt
 With this simple class, you can use the properties file and access it with this
 single singleton configuration manager.
 
+TOC
+---
+A - [Properties File](#properties-file)
+B - [Setting Up The Environmental Variable](#setting-up-the-environmental-variable)
+C - [States Of The ConfigManager](#states-of-the-configmanager)
+
 Properties File
 ---------------
 There are two locations that properties file can be located;
