@@ -7,9 +7,9 @@ single singleton configuration manager.
 
 TOC
 ---
-A - [Properties File](#properties-file)
-B - [Setting Up The Environmental Variable](#setting-up-the-environmental-variable)
-C - [States Of The ConfigManager](#states-of-the-configmanager)
+1- [Properties File](#properties-file)
+2- [Setting Up The Environmental Variable](#setting-up-the-environmental-variable)
+3- [States Of The ConfigManager](#states-of-the-configmanager)
 
 Properties File
 ---------------
