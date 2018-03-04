@@ -3,6 +3,11 @@ package com.levent.scd.configuration;
 import java.io.FileInputStream;
 import java.util.Properties;
 
+/*
+ * A simple Configuration Manager class based on Gang-Of-Four Singleton Design Pattern.
+ * 
+ * Levent Divilioglu - March, 2018
+ */
 public class ConfigManager {
 	
 	private static final ConfigManager instance = new ConfigManager();
@@ -49,7 +54,7 @@ public class ConfigManager {
 	 * src/main/resources
 	 * folder.
 	 * 
-	 * Levent Divilioglu - December,2017
+	 * Levent Divilioglu - March, 2018
 	 * 
 	 */
 	private static class Config {

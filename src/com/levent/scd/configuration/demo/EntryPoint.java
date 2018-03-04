@@ -4,6 +4,11 @@ import java.util.Date;
 
 import com.levent.scd.configuration.ConfigManager;
 
+/*
+ * A primitive demo for using the ConfigManager class
+ * 
+ * Levent Divilioglu - March, 2018
+ */
 public class EntryPoint {
 
 	public static void main(String[] args) {
