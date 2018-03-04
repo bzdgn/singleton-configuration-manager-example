@@ -32,6 +32,8 @@ it will use it, if not, again, it will System.exit(1).
 
 The name of the properties file is hardcoded inside the ConfigManager class.
 
+[Go back to TOC](#toc)
+
 Setting Up The Environmental Variable
 -------------------------------------
 You can set up the environmental variable in windows as below;
@@ -40,6 +42,8 @@ You can set up the environmental variable in windows as below;
 
 If the env-variable is set, then inside the Config static class which is inside the ConfigManager,
 you can hardcode the name of the environmental variable.
+
+[Go back to TOC](#toc)
 
 States Of The ConfigManager
 ---------------------------
@@ -58,4 +62,6 @@ States Of The ConfigManager
 4- Environmental Variable Is Not Set And No Properties File In The Base Dir
 
 ![Env-Is-Not-Set-And-No-Props-File-In-Base-Dir](https://raw.githubusercontent.com/bzdgn/singleton-configuration-manager-example/master/ScreenShots/04_NO_ENV_IS_SET_FILE_IS_NOT_FOUND_ON_WORKING_DIR.PNG)
+
+[Go back to TOC](#toc)
 
